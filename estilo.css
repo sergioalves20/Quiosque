@@ -7,6 +7,7 @@
     --color4:#3B047A;
     --color5:#CC135A;
     --color6:#000000;
+    --color7:#6a4d4d;
 }
 
 *{
@@ -100,5 +101,11 @@ footer p{
     color: var(--color6);
     padding-top: 20px;
 }
-
+footer p#ident{
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Quicksand';
+    color: var(--color7);
+    padding-top: 20px; 
+}
 
